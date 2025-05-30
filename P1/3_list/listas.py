@@ -1,4 +1,4 @@
-'''
+
 
 #EJEMPLO 1. Crear una lista de numeros e imprimir el contenido
 mylist=[100,200,300,400]
@@ -79,7 +79,7 @@ print(numeros)
 
 #Ejemplo4. Crear una lista multidimencional (matriz) que almacene el mombre y numero de 4 personas 
 
-'''
+
 agenda=[
     ["Carlos","123123123"],
     ["Alberto","123123123"],
@@ -87,10 +87,12 @@ agenda=[
 ]
 
 print(agenda)
-
-for r in range():
-    for c in range():
-        print(agenda[r][c])
+va=""
+for r in range(0,2):
+    for c in range(0,2):
+        val+=f"{agenda[r][c]}"
+    val+="\n"
+print=(val)
 
 
 
